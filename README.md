@@ -1,4 +1,5 @@
-### Este projeto será continuado, uploads de relatórios de testes e aprimoramentos serão feitos futuramente
+> ### Este projeto será continuado — uploads de relatórios de testes e aprimoramentos serão feitos futuramente
+
 ---
 
 # Reconhecimento de Dígitos em Imagens Reais com Deep Learning usando PyTorch
@@ -29,8 +30,8 @@ para lidar com ruído, iluminação variada e dígitos distratores nas bordas.
 4. **FixMatch** ---> Aprendizado semi-supervisionado com até 300 mil imagens não
    rotuladas, usando máscara de confiança (threshold 95%–98%) para geração de
    pseudo-rótulos. Pico absoluto: **95,83%**
-   Foi comprovado que o *Distribution Mismatch* na prática: ao forçar 400k+ imagens
-   extras, a rede satura e a acurácia recua para 95,76%.
+   > Comprovamos o *Distribution Mismatch* na prática: ao forçar 400k+ imagens
+   > extras, a rede satura e a acurácia recua para 95,76%.
 
 ---
 
@@ -46,8 +47,23 @@ para lidar com ruído, iluminação variada e dígitos distratores nas bordas.
 
 ## Tecnologias
 
-- **Linguagem e Framework** ---> Python e PyTorch (`torchvision`, `torch.nn`,
-  `torch.optim`)
+- **Linguagem e Framework** ---> Python e PyTorch (`torchvision`, `torch.nn`, `torch.optim`)
 - **Ambiente e Hardware** ---> Google Colab com GPU NVIDIA T4
-- **Análise e Visualização**  ---> Scikit-Learn, Matplotlib e Seaborn
+- **Análise e Visualização** ---> Scikit-Learn, Matplotlib e Seaborn
 - **Apresentação** ---> Dashboard interativo com Streamlit
+
+---
+
+## Como ver o relatório interativo?
+
+1. Instale o Streamlit via terminal:
+```bash
+   pip install streamlit
+```
+
+2. Baixe o arquivo `app.py`
+
+3. No terminal, execute:
+```bash
+   streamlit run app.py
+```
