@@ -1,4 +1,4 @@
-> ### Este projeto será continuado — uploads de relatórios de testes e aprimoramentos serão feitos futuramente
+> ### Este projeto será continuado ---> uploads de relatórios de testes e aprimoramentos serão feitos futuramente
 
 ---
 
